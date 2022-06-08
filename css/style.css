@@ -1,0 +1,87 @@
+.img1{
+    width: 50px;
+    height: 50px;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+}
+
+.img3{
+    width: 50px;
+    height: 50px;
+}
+
+/* CONTACT SECTION STARTS */
+
+.contact-div{
+    background-color: #B0B0F1;
+    padding: 2px;
+    border-bottom: 1px solid #0000FF;
+}
+.contact-div .parent-div #row{
+    gap: 35px;
+}
+.contact-div .parent-div h4{
+    color: #0000FF;
+    margin-bottom: 25px;
+}
+.contact-div .parent-div .hr{
+    width: 25px;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: #0000FF;
+}
+
+.contact-div .parent-div .contact-first-p,
+.contact-div .parent-div .contact-third-p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-div .parent-div .contact-second-p{
+    color: #0000FF;
+}
+.contact-div .parent-div .input-div{
+    display: flex;
+}
+.contact-div .parent-div input{
+    height: 50px;
+    padding: 6px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #DFD5D5;
+    border: 1px #DFD5D5 solid;
+}
+.contact-div .parent-div .input-div .icon-btn{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 6px;
+    margin-left: 5px;
+    border-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.3s ease-in-out;
+
+}
+.contact-div .parent-div .input-div .icon-btn:hover{
+    background-color: #F28123;
+    border-color: #F28123;
+}
+.contact-div .parent-div .input-div .icon-btn i{
+    margin-top: 5px;
+}
+/* CONTACT SECTION ENDS */
+
+
+/* FOOTER STYLINGS STARTS */
+.footer-section footer{
+    padding: 15px;
+}
+.footer-section footer p{
+    margin: auto;
+    color: #4C4CFF;
+}
+/* FOOTER STYLINGS ENDS */

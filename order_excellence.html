@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Front-End Project</title>
+</head>
+
+<body>
+
+    <!-- NavBar Begins -->
+    <div>
+        <nav class="navbar navbar-expand-md bg-dark py-2">
+            <div class="container-fluid ">
+                <img src="images/JackoFruity.png" alt="logo" style="width:100px; margin-left: 80px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" style="text-align: center; margin-left: 120px;">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown">
+                            Shop
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Cart</a>
+                            <a class="dropdown-item" href="#">Amount</a>
+                            <a class="dropdown-item" href="#">Pay</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container text-white" style="margin-right: 10px; margin-left: 200px;">
+                <ul class="padding: 3px">
+                    <i class="fas fa-shopping-cart" style="margin: 25px"></i>
+                    <i class="fas fa-search"></i>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <!-- NavBar Ends -->
+
+    <!--HERO-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+                <div class=" love text-primary">FRESH &amp; ORGANIC<br>
+
+                    <h1 class="text-warning letter-spacing-1.2rem"><span style="font-size: 60px;">Make Your Order
+                            Here!</span></h1><br>
+                    <div>
+                    </div>
+                    <a href="a" class="btn btn-primary"
+                        style="background-color:blue; hover: brown; border-radius: 20px;">Fruit Collection</a>
+                    <a href="a" class="btn btn-outline-warning text-white" style="hover: coral; border-width: 1.8px; border-radius: 20px; 
+        border-color: blue;">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!--Order Table Left Begins-->
+    <div class="row my-5 pl-5 pr-5">
+        <div class="container col-sm-8">
+            <table class="table table-hover table-bordered">
+                <tr class="text-primary table-active">
+                    <th> </th>
+                    <th>Product Name</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="submit" class="btn btn-link bg-light">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <img class="img1" src="images/product-img-1.jpg">
+                    </td>
+                    <td>Strawberry</td>
+                    <td>$85</td>
+                    <td><input type="number" class="form-control" id="usr"></td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="submit" class="btn btn-link bg-light">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <img class="img2" src="images/product-img-2.jpg">
+                    </td>
+                    <td>Berry</td>
+                    <td>$70</td>
+                    <td>
+                        <input type="number" class="form-control" id="usr">
+                    </td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="submit" class="btn btn-link bg-light">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <img class="img3" src="images/product-img-3.jpg">
+                    </td>
+                    <td>Lemon</td>
+                    <td>$35</td>
+                    <td>
+                        <input type="number" class="form-control" id="usr">
+                    </td>
+                    <td>1</td>
+                </tr>
+
+            </table>
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </div>
+
+        <!--Order Summary Right Begins -->
+        <div class="col-sm-4">
+            <div class="container">
+                <table class="table table-hover table-bordered">
+                    <tr class="text-primary table-active">
+                        <th>Total</th>
+                        <th>Price</th>
+                    </tr>
+
+                    <tr>
+                        <td style="font-weight: bold;" class="text-primary">
+                            Subtotal:
+                        </td>
+                        <td class="text-primary">$500</td>
+                    </tr>
+
+                    <tr>
+                        <td style="font-weight: bold;" class="text-primary">
+                            Shipping:
+                        </td>
+                        <td class="text-primary">$45</td>
+                    </tr>
+
+                    <tr>
+                        <td style="font-weight: bold;" class="text-primary">
+                            Total:
+                        </td>
+                        <td class="text-primary">$545</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div>
+        <section class="contact-div">
+            <div class="container my-5" id="contact-container">
+                <div class="parent-div">
+                    <div class="row" id="row">
+                        <div class="col-md">
+                            <h4>About us</h4>
+                            <div class="hr"></div>
+                            <p class="contact-first-p">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Dolorum ex laborum eos unde, soluta perspiciatis
+                                Dolorum ex laborum eos unde!
+                            </p>
+                        </div>
+                        <div class="col-md">
+                            <h4>Get in Touch</h4>
+                            <div class="hr"></div>
+                            <p class="contact-second-p">
+                                Onitsha,Anambra Nigeria
+                            </p>
+                            <p class="contact-second-p">support @jackoFruitty.com</p>
+                            <p class="contact-second-p">+00 111 222 3333</p>
+                        </div>
+                        <div class="col-md">
+                            <h4>Subscribe</h4>
+                            <div class="hr"></div>
+                            <p class="contact-third-p">
+                                Subscribe to our mailing list to get the latest updates
+                            </p>
+                            <div class="input-div">
+                                <input type="email" placeholder="Email">
+                                <button class="icon-btn text-center"><i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-md">
+
+                        </div>
+                    </div>
+
+                    <!-- FOOTER SECTION -->
+                    <section class="footer-section">
+                        <div class="container">
+                            <footer>
+                                <p>Copyrights &copy2022 - <b>Anhydrase Devs</b> , All Rights Reserved.</p>
+                            </footer>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
