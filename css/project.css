@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    padding: 0rem;
+}
+/* button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+ 
+    border-radius: 35%;
+
+} */
+.navbar{
+    font-size: 16px;
+}
+
+.navbar .navbar-nav .nav-link{
+    padding: 0 20px;
+    color:rgb(242, 244, 245);
+    transition: 0 3s ease;
+}
+.navbar-light .navbar-nav .nav-link:,
+.navbar .navbar-nav .nav-link.active{
+color: coral;
+}
+.navbar.i{
+    color:aliceblue;
+    font-size: 1.2rem;
+    padding: 2rem;
+   
+}
+.btn-primary:hover {
+color: coral;
+background-color: rgb(121, 81, 81);
+border-color: brown;
+transform: scale(1.1) rotate(360deg);
+}
+.hero{
+    margin-top: 160px;
+    margin-bottom: 140px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto;
+     margin-top: 30px;
+    align-items: center; */
+}
+ 
+
+ .chapter1{ 
+    background-image: url("image/light-purple.PNG");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}  
+
+.row{
+    margin-left: 110px;
+   
+    padding: 15px;
+}
+
+.product{
+    margin-top: 200px;
+margin-bottom: 70px;
+
+}
+
+.bg-dark{
+   background: transparent !important; 
+}
+.bg-dark.scrolled{
+    background: rgb(57, 45, 45) !important;
+}
